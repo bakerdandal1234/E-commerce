@@ -65,7 +65,7 @@ export const counterSlice = createSlice({
       // state.deletedProduct=
       // state.value += action.payload
       console.log("doneeeeeeee deleted ")
-      localStorage.setItem("selectedProducts",JSON.stringify(state.selectedProductsID))
+      localStorage.setItem("selectedProductsID",JSON.stringify(state.selectedProductsID))
       localStorage.setItem("selectedProducts",JSON.stringify(state.selectedProducts))
     },
   },
