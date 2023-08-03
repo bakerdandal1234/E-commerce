@@ -46,7 +46,7 @@ export const counterSlice = createSlice({
           return item  !== action.payload.id
         })
         state.selectedProductsID=newArrayy
-        localStorage.setItem("selectedProducts",JSON.stringify(state.selectedProductsID))
+        localStorage.setItem("selectedProductsID",JSON.stringify(state.selectedProductsID))
         localStorage.setItem("selectedProducts",JSON.stringify(state.selectedProducts))
       }
     },
